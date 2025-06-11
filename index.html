@@ -23,7 +23,7 @@
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
   <!-- Tailwind CSS -->
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
 
   <link href="css/style.css" rel="stylesheet" />
 </head>
@@ -121,60 +121,67 @@
                   </div>
                 </div>
                 <div class="skill-mf">
-                  <div class="grid grid-cols-2">
-                    <div>
-                  <p class="title-s">Web application Developer</p>
-                  <ul>
-                    <li>Angular Frameworks</li>
-                    <li>PrimeNG</li>
-                    <li>Tailwind CSS</li>
-                    <li>ASP.NET Core</li>
-                    <li>RestAPI Endpoints</li>
-                  </ul>
-                  </div>
-                  <div>
-                  <p class="title-s">Programming language</p>
-                  <ul>
-                    <li>TypeScript</li>
-                    <li>C#</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                  </ul>
-                  </div>
-                  <div>
-                  <p class="title-s">Database</p>
-                  <ul>
-                    <li>MongoDB</li>
-                    <li>Firebase</li>
-                    <li>MySQL</li>
-                  </ul>
-                  </div>
-                  <div>
-                  <p class="title-s">Tools & Platform</p>
-                  <ul>
-                    <li>Visual Studio Code</li>
-                    <li>Postman</li>
-                    <li>Docker (เบื้องต้น)</li>
-                    <li>MongoDB Compass</li>
-                    <li>Git / GitHub</li>
-                  </ul>
-                  </div>
-                  <div>
-                  <p class="title-s">Development Practices</p>
-                  <ul>
-                    <li>Version Control (Git)</li>
-                    <li>Agile Workflow (เข้าใจเบื้องต้น)</li>
-                    <li>Responsive Design</li>
-                  </ul>
-                  </div>
-                  <div>
-                  <p class="title-s">Languages</p>
-                  <ul>
-                    <li>Thai (Native)</li>
-                    <li>English (Intermediate – Reading & Writing)</li>
-                  </ul>
-                  </div>
-                </div>
+                  <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <p class="fw-bold" style="font-weight: bold;">Web Application Developer</p>
+    <ul>
+      <li>Angular Frameworks</li>
+      <li>PrimeNG</li>
+      <li>Tailwind CSS</li>
+      <li>ASP.NET Core</li>
+      <li>REST API Endpoints</li>
+    </ul>
+  </div>
+
+  <div class="col">
+    <p class="fw-bold" style="font-weight: bold;">Programming Language</p>
+    <ul>
+      <li>TypeScript</li>
+      <li>C#</li>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
+  </div>
+</div>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <p class="fw-bold" style="font-weight: bold;">Database</p>
+    <ul>
+      <li>MongoDB</li>
+      <li>Firebase</li>
+      <li>MySQL</li>
+    </ul>
+  </div>
+
+  <div class="col">
+    <p class="fw-bold" style="font-weight: bold;">Tools & Platform</p>
+    <ul>
+      <li>Visual Studio Code</li>
+      <li>Postman</li>
+      <li>Docker (เบื้องต้น)</li>
+      <li>MongoDB Compass</li>
+      <li>Git / GitHub</li>
+    </ul>
+  </div>
+</div>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <p class="fw-bold" style="font-weight: bold;">Development Practices</p>
+    <ul>
+      <li>Version Control (Git)</li>
+      <li>Agile Workflow (เข้าใจเบื้องต้น)</li>
+      <li>Responsive Design</li>
+    </ul>
+  </div>
+
+  <div class="col">
+    <p class="fw-bold" style="font-weight: bold;">Languages</p>
+    <ul>
+      <li>Thai (Native)</li>
+      <li>English (Intermediate – Reading & Writing)</li>
+    </ul>
+  </div>
+</div>
               </div>
             </div>
             <div class="col-md-6">
@@ -324,7 +331,7 @@
               <div class="card-body">
                 <div class="card-category-box">
                   <div class="card-category">
-                    <h6 class="category">Flutter</h6>
+                    <h6 class="category">Web Application</h6>
                   </div>
                 </div>
                 <h3 class="card-title text-center">
@@ -341,17 +348,17 @@
   โปรเจกต์นี้ต่อยอดจากประสบการณ์ฝึกงาน โดยนำแนวคิดเรื่องการจัดโครงสร้างระบบ การสร้าง API ที่แยกหน้าที่ชัดเจน และการทำงานร่วมกับฐานข้อมูลมาใช้จริง  
   ระบบถูก Deploy โดยแยกฝั่ง <strong>Frontend</strong> และ <strong>Backend</strong> ออกจากกัน และเผยแพร่ผ่าน <strong>Render.com</strong> เพื่อให้สามารถเข้าถึงและทดลองใช้งานได้สะดวก
 </p>
-                <div class="flex justify-content-between" style="margin-bottom: -25px;">
-                  <div class="d-flex justify-content-start">
+                <div class="row" style="margin-bottom: -25px;">
+                  <div class="col-8 d-flex justify-content-start">
                     <a href="https://manga-web-c9p9.onrender.com/" target="_blank">
                       <i class="fa fa-globe fs-2" style="font-size:36px;"></i></a>
                   </div>
-                  <div class="flex gap-2">
-                    <div class="d-flex justify-content-start">
+                  <div class="row justify-content-end">
+                    <div class="col d-flex justify-content-start">
                     <a href="https://github.com/sirasith-BU/Angular-MangaCollection.git" target="_blank">
                       <i class="fa fa-github" style="font-size:36px;"></i></a>
                   </div>
-                  <div class="d-flex justify-content-start">
+                  <div class="col d-flex justify-content-start">
                     <a href="https://github.com/sirasith-BU/MongoDB-MangaCollection.git" target="_blank">
                       <i class="fa fa-github" style="font-size:36px;"></i></a>
                   </div>
